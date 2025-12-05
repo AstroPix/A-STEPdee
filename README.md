@@ -25,31 +25,31 @@ have the following group structure:
 
 Layer0  
 |  
-|--> Chip0
-|    |
-|    |--> Calibration Array
-|    |--> Resolution Array
-|    |--> (Threshold Array)
-|    |--> (Offset Array)
-|
-|--> Chip1
-|    |
-|    |--> Calibration Array
-|    |--> Resolution Array
-|    |--> (Threshold Array)
-|    |--> (Offset Array)
-|
-|--> Chip2
-|    .
-|    .
-|    .
-|
-Layer1
-|
-|--> Chip0
-.
-.
-.
+|--> Chip0  
+|    |  
+|    |--> Calibration Array  
+|    |--> Resolution Array  
+|    |--> (Threshold Array)  
+|    |--> (Offset Array)  
+|  
+|--> Chip1  
+|    |  
+|    |--> Calibration Array  
+|    |--> Resolution Array  
+|    |--> (Threshold Array)  
+|    |--> (Offset Array)  
+|  
+|--> Chip2  
+|    .  
+|    .  
+|    .  
+|  
+Layer1  
+|  
+|--> Chip0  
+.  
+.  
+.  
 
 The calibration arrays should be formatted as Row # | Column # | Slope | Intercept, where
 (ToT [us])  = Slope x (Energy [keV]) + Intercept.
