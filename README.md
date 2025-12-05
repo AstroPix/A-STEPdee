@@ -26,18 +26,18 @@ have the following group structure:
 Layer0  
 |  
 |--> Chip0  
-|\t|  
-|    |--> Calibration Array  
-|    |--> Resolution Array  
-|    |--> (Threshold Array)  
-|    |--> (Offset Array)  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> Calibration Array  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> Resolution Array  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> (Threshold Array)  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> (Offset Array)  
 |  
 |--> Chip1  
-|    |  
-|    |--> Calibration Array  
-|    |--> Resolution Array  
-|    |--> (Threshold Array)  
-|    |--> (Offset Array)  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> Calibration Array  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> Resolution Array  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> (Threshold Array)  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--> (Offset Array)  
 |  
 |--> Chip2  
 |    .  
