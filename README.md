@@ -23,8 +23,8 @@ The individual pieces of the DEE is called from the DEE.py script as
 information, and optionally, threshold and row-column offset information. This file should
 have the following group structure:
 
-Layer0\n
-|\n
+Layer0  
+|  
 |--> Chip0
 |    |
 |    |--> Calibration Array
