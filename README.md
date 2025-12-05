@@ -10,3 +10,14 @@ most detector.
 
 ## Usage
 
+The individual pieces of the DEE is called from the DEE.py script as 
+
+	python DEE.py <.sim filename> <.h5 calibration filename> (-h5) (--ASTEP_BG_filename 
+	<.csv background filename>) (--seed <seed number>)
+
+The arguments are as follows:
+
+<.sim filename>:            The path to the Cosima-simulated .sim file
+
+<.h5 calibration filename>: The path to a file containing calibration and resolution 
+information
