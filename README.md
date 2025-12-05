@@ -26,7 +26,7 @@ have the following group structure:
 Layer0  
 |  
 |--> Chip0  
-|    |  
+|\t|  
 |    |--> Calibration Array  
 |    |--> Resolution Array  
 |    |--> (Threshold Array)  
