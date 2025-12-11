@@ -52,10 +52,10 @@ Layer1
 .  
 
 The calibration arrays should be formatted as Row # | Column # | Slope | Intercept, where
-(ToT [us])  = Slope x (Energy [keV]) + Intercept.
+(E [keV])  = Slope x (ToT [us]) + Intercept.
 
-The resolution arrays should be formatted as Row # | Column # | Slope | Intercept, where
-(sigma_ToT [us]) = Slope x (ToT [us]) + Intercept
+The resolution arrays should be formatted as Row # | Column # | Slope | Intercept | Minimum Sigma [us], 
+where (sigma_ToT [us]) = Slope x (ToT [us]) + Intercept
 
 The optional threshold arrays should be formatted as Row # | Column # | ToT Threshold [us]
 

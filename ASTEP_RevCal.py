@@ -236,7 +236,6 @@ class ASTEP_RevCal:
         
         self.FPGA_row_times = (((self.TKR_hits[:,1] + 1e-6*self.ToT_us_row + self.FPGA_Clock_Offset)*self.FPGA_Clock_Freq)%self.FPGA_Max_Clock).astype(int)
         self.FPGA_col_times = (((self.TKR_hits[:,1] + 1e-6*self.ToT_us_col + self.FPGA_Clock_Offset)*self.FPGA_Clock_Freq)%self.FPGA_Max_Clock).astype(int)
-        # If interaction time + ToT for 2 interactions is within 84 clock cycles, then they are put together
         
     def make_out_array(self):
         self.out_header = 'dec_ord,readout,layer,chipID,payload,location,isCol,timestamp,tot_msb,tot_lsb,tot_total,tot_us,fpga_ts'
